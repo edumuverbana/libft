@@ -20,7 +20,7 @@ bonus : $(OBJ) $(B_OBJ)
 	ar -rcs $(NAME) $(OBJ) $(B_OBJ)
 
 re : fclean all
- ewewew
+
 clean :
 	rm -f $(OBJ) $(B_OBJ)
 
